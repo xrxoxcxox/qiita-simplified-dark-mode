@@ -1,8 +1,8 @@
 :root {
   --text-high-emphasis: rgba(0 0 0 / 0.87);
   --text-medium-emphasis: rgba(0 0 0 / 0.6);
-  --text-on-main: rgba(255 255 255 / 0.87);
-  --main: #0d47a1;
+  --text-on-primary: rgba(255 255 255 / 0.87);
+  --primary: #0d47a1;
   --background: #f6f6f6;
   --surface: #fff;
 }
@@ -11,8 +11,8 @@
   :root {
     --text-high-emphasis: rgba(255 255 255 / 0.87);
     --text-medium-emphasis: rgba(255 255 255 / 0.6);
-    --text-on-main: rgba(0 0 0 / 0.87);
-    --main: #ffca28;
+    --text-on-primary: rgba(0 0 0 / 0.87);
+    --primary: #ffca28;
     --background: #212121;
     --surface: #2f2f2f;
   }
@@ -77,10 +77,10 @@ body {
 }
 
 .button {
-  background-color: var(--main);
+  background-color: var(--primary);
   border: none;
   border-radius: 8px;
-  color: var(--text-on-main);
+  color: var(--text-on-primary);
   cursor: pointer;
   font-size: 18px;
   font-weight: 700;
