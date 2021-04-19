@@ -1,0 +1,1 @@
+# qiita-simplified-dark-mode
